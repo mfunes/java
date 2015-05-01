@@ -7,3 +7,7 @@
 **29/04/2015**
     
     Instalado proyecto edx para la plataforma Edx
+
+**01/05/2015**
+
+    Instalado proyecto think para Thinking in Java
