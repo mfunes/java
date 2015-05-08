@@ -1,0 +1,15 @@
+package formas;
+
+	class Formas {
+		  private Formas() {}
+		  static Formas makeAFormas() {
+		    return new Formas();
+		  }
+		}
+
+		public class Cuadrado {
+		  public static void main(String[] args) {
+		    //! Formas x = new Formas();
+		    Formas x = Formas.makeAFormas();
+		  }
+		}

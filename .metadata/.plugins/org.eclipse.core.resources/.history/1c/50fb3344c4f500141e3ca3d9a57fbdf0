@@ -1,0 +1,67 @@
+/**
+ * @author Manuel Funes Domingo
+ *
+ * Esta aplicación calcula la media de varios números
+ */
+
+package practica1;
+
+public class MediaGeneral {
+
+	/**
+	 * Punto de entrada a la aplicación.
+	 *
+	 * Este método imprime la media de varios números que son pasados como parámetro
+	 *
+	 * @param args Los argumentos de la línea de comando. Se esperan dos números.
+	 */
+		public static void main(String[] args) {
+
+		if (args.length<2) {
+			System.out.println("ERROR: Se esperan mas de dos números como parámetros.");
+			return;
+		} //if
+
+        else {
+
+        	int z = 0;
+            int i = 0;
+            int aux = 0;
+    		String par = "par";
+            
+            
+    		while (i < args.length) {
+        	
+    			aux = args.length % 2;
+    			
+    			String arg = args[i]; // una variable String que obtiene los parámetros
+			
+    			int x = Integer.parseInt(arg); // una variable int, que convierte arg a numerico
+				
+    			if (x<0) {
+    				System.out.println("ERROR: Uno de los parámetros es incorrecto.");
+    				return;
+    			} //if
+			
+    			else{
+                			
+    					z = z + x;
+				
+    					i = i++;
+					
+    				} //else
+					
+    		} //while
+				
+    		z = z/args.length; // Calcula la media
+    				
+    		if (aux!=0) {
+    			par =  "impar";					
+    		}
+				
+    		System.out.println("La media es: " + z + " , el número de parametros es: " + args.length + " que es un número " + par);
+				
+    				
+    	} //else
+	} //class
+} //class

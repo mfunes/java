@@ -5,6 +5,7 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/home/manu/Descargas/TIJ4-code"/>
 			<item value="/home/manu/java/TIJ4-code"/>
 			<item value="/home/manu/java"/>
 		</list>
