@@ -7,5 +7,6 @@
 <listEntry value="1"/>
 </listAttribute>
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="practica1.Bienvenido"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="1 2 3 4 5 6 7 8 9"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="manu"/>
 </launchConfiguration>

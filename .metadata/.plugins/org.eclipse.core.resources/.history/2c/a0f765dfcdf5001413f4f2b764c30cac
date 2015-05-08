@@ -1,0 +1,40 @@
+/**
+ * @author Manuel Funes Domingo
+ *
+ * Esta aplicación calcula la mediana de varios números
+ * y los ordena de menor a mayor
+ */
+
+package practica1;
+
+public class Mediana {
+
+	public static void main(String[] args) {
+
+		if (args.length<2 || args.length>20) {
+			System.out.println("ERROR: Se esperan entre dos y veinte números como parámetros.");
+			return;
+		} //if
+		
+		else {
+			
+			// Contador para el algoritmo
+			int j;
+			
+			// Array que pasamos como parámetros 
+			double[] numeros = new double[args.length];
+			
+			System.out.println("Lista inicial: ");
+			// Guardamos todos los numeros en el nuevo array
+			for (int i = 0; i<args.length; i++){
+				numeros[i] = Double.parseDouble(args[1]);
+				// Imprimimos la lista inicial por pantalla
+				System.out.print(" " + numeros[i]);
+			} //for
+
+			System.out.println(" ");
+			
+		} //else
+		
+	} //class
+} //class
