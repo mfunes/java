@@ -12,7 +12,7 @@ public class Dados {
 	
 	public static void main(String[] args) {
 		
-		// Ejecutamos el programa 10 veces
+		// Ejecutamos el programa 10000 veces
 		int ganas = 0;
 		int n1 = 0;
 		int n2 = 0;
@@ -20,7 +20,7 @@ public class Dados {
 		int n4 = 0;
 		int n5 = 0;
 		int n6 = 0;
-		for (int a = 1; a <= 10; a++) {
+		for (int a = 1; a <= 10000; a++) {
 		
 		int sale = 0;
 		// Lanzamos los dados 5 veces
@@ -64,10 +64,10 @@ public class Dados {
 	    else {
 	    	System.out.println("Lo siento... Intentalo de nuevo! Has sacado " + sale + " puntos");
 	    }
-		if (a == 10) {
+		if (a == 10000) {
 		System.out.println(" ");
 		System.out.println("-------------------------------------- ");
-		System.out.println("Has ganado " + ganas + " partidas de 10");
+		System.out.println("Has ganado " + ganas + " partidas de 10000");
 		System.out.println("-------------------------------------- ");
 		System.out.println(" ");
 		System.out.println("El número 1 ha salido "+ n1 + " veces");
