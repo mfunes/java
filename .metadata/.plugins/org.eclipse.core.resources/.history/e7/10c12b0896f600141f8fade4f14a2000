@@ -9,24 +9,21 @@ import java.util.*;
 
 public class Iching {
 	
-	private static Scanner in;
-
 	public static void main(String[] args) {
 		
-		// Inicialización de variables
-		int suma = 0;
-	    int cadena[] = new int[6];
-	    String cadeneta="";
-	    String cadenaInvertida="";
-	    String word2 = "";	
-		
-		// Hacemos la consulta inicial
 		String consulta;
-		in = new Scanner(System.in);
+		Scanner in = new Scanner(System.in);
 		System.out.println("Realiza tu consulta");
 	    consulta = in.nextLine();
 	      
-	        
+	    int suma = 0;
+	    int cadena[] = new int[6];
+	    int cadena2[] = new int[6];
+	    String l0, l1, l2, l3 = "";
+	    String cadeneta="";
+	    String cadenaInvertida="";
+	    String cadenadial = "";
+	    String word2 = "";	    
 		// Lanzamos las monedas 6 veces
 		for (int i = 0; i <= 5; i++) {
 		    Random rand = new Random();
