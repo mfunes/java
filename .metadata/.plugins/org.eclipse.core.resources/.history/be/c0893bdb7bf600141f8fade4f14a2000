@@ -1,0 +1,156 @@
+/**
+ * @author Manuel Funes Domingo
+ *
+ * Iching 1=cara 2=cruz
+ */
+
+package iching;
+import java.util.*;
+
+public class Iching {
+	
+	public static void main(String[] args) {
+		
+		String consulta;
+		Scanner in = new Scanner(System.in);
+		System.out.println("Realiza tu consulta");
+	    consulta = in.nextLine();
+	      
+	    int suma = 0;
+	    int cadena[] = new int[6];
+	    int cadena2[] = new int[6];
+	    String l0, l1, l2, l3 = "";
+	    String cadeneta="";
+	    String cadenaInvertida="";
+	    int cadenadial = 0;
+	    ArrayList<String> list = new ArrayList <String>();
+	    
+		// Lanzamos las monedas 6 veces
+		for (int i = 0; i <= 5; i++) {
+		    Random rand = new Random();
+			int m1 = rand.nextInt(2)+1;
+			int m2 = rand.nextInt(2)+1;
+			int m3 = rand.nextInt(2)+1;
+			int sale1 = 0;
+			int sale2 = 0;
+			int sale3 = 0;
+			
+			if (i==0) {
+				System.out.println("    Linea Base");
+			}
+			if (m1 == 1) {
+				System.out.print("O");
+				sale1++;
+			}
+			else {
+				System.out.print("X");
+			}
+			if (m2 == 1) {
+				System.out.print("O");
+				sale2++;
+			}
+			else {
+				System.out.print("X");
+			}
+			if (m3 == 1) {
+				System.out.print("O");
+				sale3++;
+			}
+			else {
+				System.out.print("X");
+			}
+			suma = sale1 + sale2 + sale3;
+	        
+			if (suma == 3) {
+				System.out.println("  Viejo Yang (Mutante)	----O----	9");
+			}
+			else if (suma == 2) {
+				System.out.println("  Joven Yin (Estable)	---   ---	8");
+			}
+			else if (suma == 1) {
+				System.out.println("  Joven Yang (Estable)	---------	7");
+			}
+			else if (suma == 0) {
+				System.out.println("  Viejo Yin (Mutante)	--- X ---	6");
+			}
+			cadena[i] = suma;
+			
+				
+				
+		} //for
+		
+		System.out.println("    Cima ");
+	    System.out.println(" ");
+	    for(int cad : cadena) {
+	    	
+	      cadeneta = Integer.toString(cad);
+	      
+	      for (int i = cadeneta.length()-1; i >-1 ; i--) {
+	       		cadenaInvertida += cadeneta.charAt(i); 
+	    	}
+	     
+	    	switch (cadenaInvertida) {
+	    	
+	    	case "0":
+	    		l0 = "--- X ---";
+	    		break;
+	    	case "1":
+	    		l1 = "---------";
+	    		break;
+	    	case "2":
+	    		l2 = "---   ---";
+	    		break;
+	    	case "3":
+	    		l3 = "----O----";
+	    		break;	
+	    	} //switch
+	      } //foreach	
+	    
+	  //Calculo de longitud de cadena:
+	    int largo=cadenaInvertida.length();
+
+	    //La clase StringBuffer permite la manipulacion de cadenas.
+	    //Se hace el constructor:
+	    StringBuffer word = new StringBuffer(largo);
+
+	    /*En el siguiente bucle usamos la palabra reservada charAt
+	    *que permite extraer un caracter de determinada posicion,
+	    *mientras que append, permite concatenar estos caracteres
+	    *de la cadena manipulada en el objeto word.
+	    */
+	    //Sin esto da una excepcion del tipo indice fuera de rango. 
+	    for(int i=0; i<largo;i++){
+	    word.append(cadenaInvertida.charAt(i));
+	    }
+	    
+	    //Empezamos con la extraccion de caracteres
+	    for(int i=0;i<largo;i++){
+
+	    /*Creamos una variable temporal donde asignamos el valor extraido,
+	    *desde la posicion 0 más el resto de la cadena excepto el ultimo
+	    *valor de la cadena.
+	    */
+	    String temp = word.substring(0,(largo-1));
+
+	    //En la posicion 0, setCharAt asigna el ultimo valor de la cadena.
+	    word.setCharAt(0,word.charAt(largo-1));
+
+	    /*Desde la posicion 1, delete elimina el resto de la cadena,
+	    *exceptuando el primer valor, el de la posicion no contada,
+	    * la posicion 0. De no hacer esto habria una concatenacion
+	    * innecesaria.
+	    */
+	    word.delete(1,largo);
+
+	    /*Inserta la cadena substraida asignada en la variable temporal
+	    *en la posicion 1, de donde se elimino la anterior.
+	    */
+	    word.insert(1,temp);
+
+	    //Imprime las cadenas creadas hasta llegar a la cadena original.
+	    
+	    System.out.println(word.toString());
+	    }
+	} // public	
+} //class
+

@@ -1,0 +1,83 @@
+/**
+ * @author Manuel Funes Domingo
+ *
+ * Iching 1=cara 2=cruz
+ */
+
+package iching;
+import java.util.*;
+
+public class Iching {
+	
+	public static void main(String[] args) {
+		
+		String consulta;
+		Scanner in = new Scanner(System.in);
+		 
+	      System.out.println("Realiza tu consulta");
+	      consulta = in.nextLine();
+	      
+	    
+		int suma = 0;
+		int total = 0;
+		
+		// Lanzamos las monedas 6 veces
+		for (int i = 1; i <= 6; i++) {
+		    Random rand = new Random();
+			int m1 = rand.nextInt(2)+1;
+			int m2 = rand.nextInt(2)+1;
+			int m3 = rand.nextInt(2)+1;
+			int sale1 = 0;
+			int sale2 = 0;
+			int sale3 = 0;
+			
+			if (i==1) {
+				System.out.println("    Linea Base");
+			}
+			if (m1 == 2) {
+				System.out.print("X");
+				sale1++;
+			}
+			else {
+				System.out.print("O");
+			}
+			if (m2 == 2) {
+				System.out.print("X");
+				sale2++;
+			}
+			else {
+				System.out.print("O");
+			}
+			if (m3 == 2) {
+				System.out.print("X");
+				sale3++;
+			}
+			else {
+				System.out.print("O");
+			}
+			suma = sale1 + sale2 + sale3;
+	        
+			if (suma == 3) {
+				System.out.println("  Viejo Yin (Mutante)	--- X ---	3");
+			    cadena[suma] = cadena[cadena[suma]];
+			}
+			else if (suma == 2) {
+				System.out.println("  Joven Yang (Estable)	---------	2");
+			}
+			else if (suma == 1) {
+				System.out.println("  Joven Yin (Estable)	---   ---	1");
+			}
+			else if (suma == 0) {
+				System.out.println("  Viejo Yang (Mutante)	----O----	0");
+			}
+			total = total + suma;
+			
+		} //for
+		System.out.println("    Cima ");
+	    System.out.println(" ");
+	    System.out.println(total);
+	    System.out.println("Tu consulta es: " + consulta);
+	    System.out.println("El resultado es: ");
+	} // public
+} //class
+
