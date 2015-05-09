@@ -62,3 +62,4 @@ public class Dog {
 		System.out.println("nuevo.name.equals(nuevo.name) " + nuevo.name.equals(nuevo.name));
 	} //public
 } //class
+

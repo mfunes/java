@@ -1,3 +1,4 @@
+
 /**
  * @author Manuel Funes Domingo
  *
@@ -5,7 +6,7 @@
  */
 
 package operators;
-
+//:
 public class Dog {
 		
 	String name;
@@ -62,3 +63,4 @@ public class Dog {
 		System.out.println("nuevo.name.equals(nuevo.name) " + nuevo.name.equals(nuevo.name));
 	} //public
 } //class
+///:
