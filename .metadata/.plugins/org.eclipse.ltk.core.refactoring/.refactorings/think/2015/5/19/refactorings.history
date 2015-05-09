@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;operators.Equal.java&apos; to &apos;Dog.java&apos;&#x0A;- Original project: &apos;think&apos;&#x0A;- Original element: &apos;operators.Equal.java&apos;&#x0A;- Renamed element: &apos;operators.Dog.java&apos;" description="Rename compilation unit &apos;Equal.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;operators{Equal.java" name="Dog.java" references="false" stamp="1431157343076" version="1.0"/>
+</session>
