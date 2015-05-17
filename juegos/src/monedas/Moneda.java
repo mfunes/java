@@ -10,7 +10,7 @@ import java.util.*;
 
 public class Moneda {
 	
-	public static void main(String[] args) {
+	public void main(String[] args) {
 		
 		// Ejecutamos el programa 10 veces
 		int ganas = 0;

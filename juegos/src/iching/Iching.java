@@ -11,7 +11,7 @@ public class Iching {
 	
 	private static Scanner in;
 
-	public static void main(String[] args) {
+	public void main(String[] args) {
 		
 		// Inicialización de variables
 		int suma = 0;
@@ -38,31 +38,32 @@ public class Iching {
 			int sale3 = 0;
 			
 			if (i==0) {
-				System.out.println("    Linea Base");
+			//	System.out.println("    Linea Base");
 			}
 			if (m1 == 1) {
-				System.out.print("O");
+			//	System.out.print("O");
 				sale1++;
 			}
 			else {
-				System.out.print("X");
+			//	System.out.print("X");
 			}
 			if (m2 == 1) {
-				System.out.print("O");
+			//	System.out.print("O");
 				sale2++;
 			}
 			else {
-				System.out.print("X");
+			//	System.out.print("X");
 			}
 			if (m3 == 1) {
-				System.out.print("O");
+			//	System.out.print("O");
 				sale3++;
 			}
 			else {
-				System.out.print("X");
+			//	System.out.print("X");
 			}
 			suma = sale1 + sale2 + sale3;
-	        
+	    
+		/*
 			if (suma == 3) {
 				System.out.println("  Viejo Yang (Mutante)	----O----	9");
 			}
@@ -75,15 +76,15 @@ public class Iching {
 			else if (suma == 0) {
 				System.out.println("  Viejo Yin (Mutante)	--- X ---	6");
 			}
-		
+		*/
 			cadena[i] = suma;
 			
 				
 				
 		} //for
 		
-		System.out.println("    Cima ");
-	    System.out.println(" ");
+	//	System.out.println("    Cima ");
+	//    System.out.println(" ");
 	    for(int cad : cadena) {
 	    	
 	      cadeneta = Integer.toString(cad);
@@ -102,10 +103,10 @@ public class Iching {
            } 
            
            System.out.println(" ");
-           System.out.println("------------------------------------ ");
-           System.out.println("Tu consulta ha sido: ");
-           System.out.println(consulta);
-           System.out.println("El resultado de tu consulta es: ");
+      //     System.out.println("------------------------------------ ");
+      //     System.out.println("Tu consulta ha sido: ");
+      //     System.out.println(consulta);
+           System.out.println("El resultado de " + consulta + " es: \n");
            
            
 	       word2 = word.toString();
@@ -113,22 +114,18 @@ public class Iching {
 	       char sub = word2.charAt(x);
 	     
 	       		if ( sub == '0' ) {
-	       			System.out.println("--- X ---");
+	       			System.out.println("\t\t--- X ---");
 	       		}
 	    		else if ( sub == '1' ) {
-	    		System.out.println("---------");
+	    		System.out.println("\t\t---------");
 	    		}
 	    		else if ( sub == '2' ) {
-	    			System.out.println("---   ---");
+	    			System.out.println("\t\t---   ---");
 	    		}
 	    		else if ( sub == '3' ) {
-	    		System.out.println("----O----");
+	    		System.out.println("\t\t----O----");
 	    		}	
-	    	
-	       
-	       }
-	       
-	    
+	       } //for
 	} // public	
 } //class
 

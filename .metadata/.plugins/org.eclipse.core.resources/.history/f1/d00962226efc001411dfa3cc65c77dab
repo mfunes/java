@@ -1,0 +1,30 @@
+/**
+ * @author Manuel Funes Domingo
+ *
+ * Menu de juegos
+ * Podemos elegir jugar a: Monedas, Dados o Iching
+ */
+
+package menu;
+
+
+public class Menu {
+	
+	static Juego juego;
+	public Menu(Juego juego) { Menu.juego = juego; }
+
+	public static void main(String[] args) {
+		
+		switch(Menu.juego) {
+		
+		
+		case MONEDAS: new Menu(juego); break;
+		case ICHING: new Menu(juego); break;
+		case DADOS: new Menu(juego); break;
+		
+		}
+		
+		
+	}
+	
+}
