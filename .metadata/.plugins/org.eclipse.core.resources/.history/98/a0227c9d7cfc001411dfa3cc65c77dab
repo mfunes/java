@@ -18,7 +18,7 @@ public class Logaritmo {
 
 	public static void main(String[] args) {
 		if (args.length<1) {
-			System.out.println("Se espera un número como parámetro.");
+			System.out.println("Se espera un numero como parámetro.");
 			return;
 		}
 		String arg = args[0]; // una variable String que obtiene el primer parámetro
