@@ -32,7 +32,7 @@ public class Menu {
               Moneda m = new monedas.Moneda(); m.main(args); break; 
           
           case 3:
-        	  Iching i = new iching.Iching(); i.main(args); break;
+        	  Iching i = new iching.Iching(); i.main(args);break;
           } 
     
           
