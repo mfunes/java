@@ -1,7 +1,0 @@
-package menu;
-
-public class juego {
-
-	public static final int juego = 0;
-
-}

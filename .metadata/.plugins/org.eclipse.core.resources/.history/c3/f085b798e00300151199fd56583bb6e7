@@ -1,0 +1,21 @@
+package test;
+
+public class Jose2 {
+	
+	static{
+		Jose prueba = new Jose(4);
+		
+		prueba.getCuentas();
+		prueba.printCuentas(prueba.getCuentas());
+		
+		
+		Jose prueba2 = new Jose();
+		Jose.printCuentas(prueba2.getCuentas());
+		
+	}
+	
+	public Jose2() {
+		
+	}
+
+}
