@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-time="1" hostname="localhost" id="JBoss 7.1 Runtime Server" name="JBoss 7.1 Runtime Server" org.jboss.ide.eclipse.as.core.server.EXPOSE_MANAGEMENT_SERVICE="true" org.jboss.ide.eclipse.as.core.server.IGNORE_LAUNCH_COMMANDS="false" org.jboss.ide.eclipse.as.core.server.attributes.shutdownPollerKey="org.jboss.ide.eclipse.as.core.runtime.server.WebPoller" org.jboss.ide.eclipse.as.core.server.attributes.startupPollerKey="org.jboss.ide.eclipse.as.core.runtime.server.WebPoller" org.jboss.ide.eclipse.as.core.server.deployDirectoryType="server" org.jboss.ide.eclipse.as.core.server.serverMode="local" runtime-id="JBoss 7.1 Runtime" server-type="org.jboss.ide.eclipse.as.71" server-type-id="org.jboss.ide.eclipse.as.71" start-timeout="450" stop-timeout="450" timestamp="1"/>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v7.0 Server-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v7.0 Server" name="Tomcat v7.0 Server" runtime-id="Apache Tomcat v7.0" server-type="org.eclipse.jst.server.tomcat.70" server-type-id="org.eclipse.jst.server.tomcat.70" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="0"/>
+  <server hostname="localhost" id="Google App Engine" name="Google App Engine" runtime-id="Google App Engine" server-type="com.google.appengine.server.id" server-type-id="com.google.appengine.server.id" start-timeout="240" stop-timeout="240" timestamp="1">
+    <list key="gae-server-modules-list" value0="org.eclipse.jst.jee.server:aula115mfd"/>
+    <list key="modules" value0="aula115mfd::org.eclipse.jst.jee.server:aula115mfd::jst.web::2.5"/>
+    <map key="gae_server_instance_properties"/>
+  </server>
+</servers>
