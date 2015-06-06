@@ -9,12 +9,17 @@ package menu;
 
 import java.util.Scanner;
 
+import test.Jose2;
 import dados.Dados;
 import monedas.Moneda;
 import iching.Iching;
 
 public class Menu { 
      public static void main (String [] args) { 
+    	 
+    	 Jose2 jose = new Jose2();
+    	 
+    	 
           int opc; 
           Scanner entrada = new Scanner(System.in); 
           System.out.println ("MENU: Elige Juego"); 
@@ -26,7 +31,9 @@ public class Menu {
            
           switch (opc) { 
           case 1:  
-               Dados d = new dados.Dados(); d.main(args); break;
+        	  Dados.main(args);
+
+               break;
            
           case 2:  
               Moneda m = new monedas.Moneda(); m.main(args); break; 
