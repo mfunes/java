@@ -12,7 +12,7 @@
 
     Instalado proyecto think para Thinking in Java
 
-**07/06/15**
+**07/06/2015**
 
     Instalados proyectos aula115mfd y juegos-968 para appengine de Google
 
