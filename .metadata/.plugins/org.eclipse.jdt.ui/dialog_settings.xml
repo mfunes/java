@@ -2,7 +2,7 @@
 <section name="Workbench">
 	<item value="JavaSE-1.6" key="org.eclipse.jdt.ui.last.selected.execution.enviroment"/>
 	<item value="/home/manu/Descargas" key="org.eclipse.jdt.ui.lastextjar"/>
-	<item value="/home/manu/java" key="org.eclipse.jdt.ui.last.external.project"/>
+	<item value="/home/manu/aula115mfd/WEB-INF" key="org.eclipse.jdt.ui.last.external.project"/>
 	<item value="1" key="org.eclipse.jdt.ui.last.selected.jre.kind2"/>
 	<item value="java-8-oracle" key="org.eclipse.jdt.ui.last.selected.project.jre"/>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
@@ -75,7 +75,7 @@
 	<section name="RenameInformationPopup">
 	</section>
 	<section name="ClasspathContainerSelectionPage">
-		<item value="0" key="index"/>
+		<item value="2" key="index"/>
 	</section>
 	<section name="quick_assist_proposal_size">
 	</section>

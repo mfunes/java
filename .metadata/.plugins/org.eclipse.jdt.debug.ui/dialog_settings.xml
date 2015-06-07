@@ -6,7 +6,7 @@
 	<item value="124" key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth0"/>
 	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
 		<item value="true" key="ShowStatusLine"/>
-		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode&gt;&#x0A;&lt;infoNode&gt;=TIJ4/src&amp;lt;access{Cake.java[Cake&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=manu/src&amp;lt;practica1{Mediana.java[Mediana&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=juegos/src&amp;lt;dados{Dados.java[Dados&lt;/infoNode&gt;&#x0A;&lt;/historyRootNode&gt;&#x0A;&lt;/History&gt;" key="History"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode&gt;&#x0A;&lt;infoNode&gt;=TIJ4/src&amp;lt;access{Cake.java[Cake&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=manu/src&amp;lt;practica1{Mediana.java[Mediana&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=juegos/src&amp;lt;dados{Dados.java[Dados&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=juegos/\/opt\/eclipse\/plugins\/com.google.appengine.eclipse.sdkbundle_1.9.21\/appengine-java-sdk-1.9.21\/lib\/shared\/jsp\/repackaged-appengine-ant-1.7.1.jar&amp;lt;org.apache.tools.ant(Main.class[Main&lt;/infoNode&gt;&#x0A;&lt;/historyRootNode&gt;&#x0A;&lt;/History&gt;" key="History"/>
 		<section name="DialogBoundsSettings">
 			<item value="600" key="DIALOG_WIDTH"/>
 			<item value="1|Sans|10.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
