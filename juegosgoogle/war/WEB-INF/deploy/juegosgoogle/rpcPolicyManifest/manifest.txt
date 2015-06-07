@@ -1,0 +1,3 @@
+# Module juegosgoogle
+# RPC service class, partial path of RPC policy file
+com.webnext.juegos.client.GreetingService, 27CF966C8447817B2BC3A6B8F3C3ACDE.gwt.rpc

@@ -1,0 +1,2 @@
+serviceClass: com.webnext.juegos.client.GreetingService
+path: 27CF966C8447817B2BC3A6B8F3C3ACDE.gwt.rpc
