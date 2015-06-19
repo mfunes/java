@@ -5,9 +5,11 @@
 		<item value="https://github.com/mfunes/java"/>
 	</list>
 	<list key="CommitDialog.authorValues">
+		<item value="Manuel Funes &lt;fdmanuel@yahoo.es&gt;"/>
 		<item value="manu &lt;manu@manu-portatil2&gt;"/>
 	</list>
 	<list key="CommitDialog.committerValues">
+		<item value="Manuel Funes &lt;fdmanuel@yahoo.es&gt;"/>
 		<item value="manu &lt;manu@manu-portatil2&gt;"/>
 	</list>
 	<section name="org.eclipse.egit.ui.internal.push.PushResultDialog.dialogBounds">

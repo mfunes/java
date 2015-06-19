@@ -26,7 +26,7 @@ public class Menu {
           System.out.println ("1) Dados"); 
           System.out.println ("2) Monedas");
           System.out.println ("3) Iching");
-          System.out.println ("Introduce numero:");
+          System.out.println ("Introduce numero: ");
           opc = entrada.nextInt(); 
            
           switch (opc) { 
