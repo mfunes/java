@@ -26,6 +26,12 @@
   <source path='client'/>
   <source path='shared'/>
 
-  <!-- allow Super Dev Mode -->
+  <!-- enable the SuperDevMode book marklets  -->
   <add-linker name="xsiframe"/>
+  <set-configuration-property name="devModeRedirectEnabled" value="true"/>
+
+  <!--  enable source maps -->
+  <set-property name="compiler.useSourceMaps" value="true" />
+  
+  <extend-property name="user.agent" values="ie7,ie8,ie9,opera,safari,chromium" />
 </module>
