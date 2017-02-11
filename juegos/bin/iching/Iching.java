@@ -11,9 +11,9 @@ public class Iching {
 	
 	private static Scanner in;
 
-	public void main(String[] args) {
+	public static void main(String[] args) {
 		
-		// Inicialización de variables
+		// Inicializaci��n de variables
 		int suma = 0;
 	    int cadena[] = new int[6];
 	    String cadeneta="";

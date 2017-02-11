@@ -3,7 +3,7 @@
  *
  * Juego de la moneda
  * Se gana consiguiendo tres cruces en 5 tiradas
- * Se juega 10 veces por estadística
+ * Se juega 10 veces por estad��stica
  */
 
 package monedas;

@@ -2,8 +2,8 @@
  * @author Manuel Funes Domingo
  *
  * Juego de los dados
- * Se gana consiguiendo 20 puntos o más en 5 tiradas
- * Se juega 10 veces por estadística
+ * Se gana consiguiendo 20 puntos o m������s en 5 tiradas
+ * Se juega 10 veces por estad������stica
  */
 
 package dados;
@@ -71,12 +71,12 @@ public class Dados {
 		System.out.println("Has ganado " + ganas + " partidas de 10");
 		System.out.println("-------------------------------------- ");
 		System.out.println(" ");
-		System.out.println("El número 1 ha salido "+ n1 + " veces");
-		System.out.println("El número 2 ha salido "+ n2 + " veces");
-		System.out.println("El número 3 ha salido "+ n3 + " veces");
-		System.out.println("El número 4 ha salido "+ n4 + " veces");
-		System.out.println("El número 5 ha salido "+ n5 + " veces");
-		System.out.println("El número 6 ha salido "+ n6 + " veces");
+		System.out.println("El n������mero 1 ha salido "+ n1 + " veces");
+		System.out.println("El n������mero 2 ha salido "+ n2 + " veces");
+		System.out.println("El n������mero 3 ha salido "+ n3 + " veces");
+		System.out.println("El n������mero 4 ha salido "+ n4 + " veces");
+		System.out.println("El n������mero 5 ha salido "+ n5 + " veces");
+		System.out.println("El n������mero 6 ha salido "+ n6 + " veces");
 		System.out.println(" ");
 		
 		int num1 = Math.max(n1, n2);
@@ -105,7 +105,7 @@ public class Dados {
 			num = "6";
 		}
 		
-		System.out.println("El número que mas ha salido ha sido el " + num + " y lo ha hecho " + nummax + " veces");
+		System.out.println("El n������mero que mas ha salido ha sido el " + num + " y lo ha hecho " + nummax + " veces");
 		
 		
 		}

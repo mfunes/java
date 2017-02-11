@@ -17,7 +17,7 @@ import iching.Iching;
 public class Menu { 
      public static void main (String [] args) { 
     	 
-    	 Jose2 jose = new Jose2();
+    	 //Jose2 jose = new Jose2();
     	 
     	 
           int opc; 
